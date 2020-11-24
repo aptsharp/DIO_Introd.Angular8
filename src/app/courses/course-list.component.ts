@@ -1,39 +1,39 @@
 import { Component, OnInit } from '@angular/core';
-import { Course } from './course'
+import {Course} from './course'
 
 @Component({
     selector: 'app-course-list',
     templateUrl: './course-list.component.html'
 })
-export class CourselistComponent implements OnInit {
+export class CourseListComponent implements OnInit {
 
-    course: Course[] = [];
+    courses: Course[] = [];
 
-    ngOnInit(): void {
-        this.course = [{
-            id: 1,
-            nome: 'JavaSript',
-            imageUrl: '',
-            price: 100.99,
-            code: 'XPTO-99',
-            duration: '5h',
-            rating: 5.4,
-            releaseDate: 'Jan'
-        },
-        {
-            id: 2,
-            nome: 'C#.Completo',
-            imageUrl: '',
-            price: 100.99,
-            code: 'CSharp-99',
-            duration: '26h',
-            rating: 9.9,
-            releaseDate:'Nov'
-        }]
+    ngOnInit(): void{
+        this.courses = [
+            {
+                id: 1,
+                nome: 'Qualuqer',
+                imageUrl: '',
+                price: 9,
+                code: '98df',
+                duration: 120,
+                rating: 5,
+                releaseDate: 'Dez'
+            },
+            {
+                id: 2,
+                nome: 'Qualuqer',
+                imageUrl: '',
+                price: 9,
+                code: '98df',
+                duration: 120,
+                rating: 5,
+                releaseDate: 'Dez'
+
+            }
+        ]
 
     }
-
-
-
 
 }
