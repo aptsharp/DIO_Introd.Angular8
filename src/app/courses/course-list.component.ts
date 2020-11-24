@@ -10,7 +10,8 @@ export class CourseListComponent implements OnInit {
     courses: Course[] = [];
 
     ngOnInit(): void{
-        this.courses = [
+        this.courses = 
+        [
             {
                 id: 1,
                 nome: 'Qualuqer',
