@@ -1,4 +1,5 @@
-![snake_](https://user-images.githubusercontent.com/6175226/99446004-235bfc80-28fd-11eb-9b5f-e87d7e13c9fa.jpg)
+![Ang8](https://user-images.githubusercontent.com/6175226/100047263-cf678100-2df0-11eb-8ef8-df39ba09f3a4.gif)
+
 
 ## Descrição:
 
